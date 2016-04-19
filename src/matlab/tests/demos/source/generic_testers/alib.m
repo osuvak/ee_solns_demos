@@ -19,7 +19,8 @@ while (flag <= 0)
     chdir('..');
     cnt = cnt + 1;
     list = dir();
-    for kk = 1:size(list,1)
+    % for kk = 1:size(list,1)
+    for kk = 1:length(list)
         lval = ( strcmpi( list(kk).name , str ) && ( list(kk).isdir == 1 ) );
         if lval
             flag = 1;
