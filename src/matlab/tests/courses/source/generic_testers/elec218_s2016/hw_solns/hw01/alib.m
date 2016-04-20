@@ -8,7 +8,7 @@ else
 end
 
 %  look for this one
-str = '_strange_folder_name_';
+str = 'zzz_strange_folder_name';
 
 %  determine location
 here = pwd;
