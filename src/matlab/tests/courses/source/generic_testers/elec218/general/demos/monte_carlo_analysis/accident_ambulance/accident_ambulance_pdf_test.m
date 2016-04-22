@@ -102,6 +102,8 @@ plot ...
     )
 hold off;
 
+axis([0 obj.L 0 1]);
+
 set(gca,'units','normalized')
 set(gca,'Box','on','FontName','Arial',...
     'FontSize',FontSize,'FontWeight','bold','LineWidth',4)
@@ -119,6 +121,8 @@ end
 figure;
 bar( pRange , cumsum(obj.freqCount) / obj.noPartitions * obj.L )
 colormap(cool)
+
+axis([0 obj.L 0 1]);
 
 set(gca,'units','normalized')
 set(gca,'Box','on','FontName','Arial',...
