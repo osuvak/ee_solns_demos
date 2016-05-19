@@ -28,12 +28,12 @@ for ii = 1:no_r
 
         subplot(2,1,1)
         stem( myRange , real(x_f(ii,:)) , 'filled' )
-        title( sprintf('x_f(%d,:) - Real parts of fft coefficients',ii) )
+        title( sprintf('x f(%d,:) - Real parts of fft coefficients',ii) )
         grid on;
 
         subplot(2,1,2)
         stem( myRange , imag(x_f(ii,:)) , 'filled' )
-        title( sprintf('x_f(%d,:) - Imaginary parts of fft coefficients',ii) )
+        title( sprintf('x f(%d,:) - Imaginary parts of fft coefficients',ii) )
         grid on;
 
     end
@@ -46,12 +46,12 @@ for ii = 1:no_r
 
         subplot(2,1,1)
         stem( myRange_shift , real(x_f_shift(ii,:)) , 'filled' )
-        title( sprintf('x_f_shift(%d,:) - Real parts of fft coefficients',ii) )
+        title( sprintf('x f shift(%d,:) - Real parts of fft coefficients',ii) )
         grid on;
 
         subplot(2,1,2)
         stem( myRange_shift , imag(x_f_shift(ii,:)) , 'filled' )
-        title( sprintf('x_f_shift(%d,:) - Imaginary parts of fft coefficients',ii) )
+        title( sprintf('x f shift(%d,:) - Imaginary parts of fft coefficients',ii) )
         grid on;
     end
 
@@ -67,12 +67,12 @@ for ii = 1:no_r
 
         subplot(2,1,1)
         stem( myRange , real(x_f_shiftback(ii,:)) , 'filled' )
-        title( sprintf('x_f_shiftback(%d,:) - Real parts of fft coefficients',ii) )
+        title( sprintf('x f shiftback(%d,:) - Real parts of fft coefficients',ii) )
         grid on;
 
         subplot(2,1,2)
         stem( myRange , imag(x_f_shiftback(ii,:)) , 'filled' )
-        title( sprintf('x_f_shiftback(%d,:) - Imaginary parts of fft coefficients',ii) )
+        title( sprintf('x f shiftback(%d,:) - Imaginary parts of fft coefficients',ii) )
         grid on;
     end
 

@@ -4,9 +4,13 @@ clear all
 format long e
 
 N = 41;
+%  can try with less or more number of points per period (keep the number odd)
+%  N = 21;
 
 T = 1;
 no_periods = 1;
+%  try with more than one periods (keep the number odd)
+%  no_periods = 3;
 
 A = 1;
 offset = 0.2;
@@ -37,7 +41,9 @@ for ii = 1:size(x,1)
 end
 
 %  dc block
-str = dcblocker( x(:,1:end-1) );
+%  str = dcblocker( x(:,1:end-1) );
+%  run this one to generate intermediate plots
+str = dcblocker( x(:,1:end-1) , 1 );
 
 %  plot dc blocked signals
 figure;
