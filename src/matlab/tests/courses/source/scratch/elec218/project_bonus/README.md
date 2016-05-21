@@ -19,9 +19,13 @@ Also in your project write the matlab code to carry out this random experiment f
 times (I chose N to be 20,000, but the bigger N the better). Through the Monte Carlo analysis
 you should plot the evalution of the mean and the variance of the
 number of passengers aboard the train vs. the number of experiments conducted.
-You should also compute the support of the this random variable, plot the pmf (probability
+You should also compute the support of this random variable, plot the pmf (probability
 mass function) and the cdf (cumulative distribution function). The output plots of my code
 are included in this directory of my github repository. My code is not more than 110 lines.
 
 It goes without saying that you should provide your matlab code and plots along with
 your report.
+
+See the following page for help on Poisson process simulation:
+
+http://people.sc.fsu.edu/~jburkardt/m_src/poisson_simulation/poisson_simulation.html
