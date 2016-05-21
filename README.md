@@ -2,6 +2,7 @@
 Solutions and Demos for EE-related Exercises
 
 Prepared by Assist. Prof. Onder Suvak
+( osuvak at gtu dot edu dot tr )
 
 Below are only administrative details on operating the tests.
 
