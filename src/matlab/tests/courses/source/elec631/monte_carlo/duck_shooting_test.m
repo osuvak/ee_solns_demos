@@ -126,7 +126,7 @@ end % function
 function [ xInfo , yInfo , zInfo , zAvInfo ] = ...
     computeFill3Triangles( obj , edgePtsL , edgePtsW , zValues )
     
-    import os_numerical_composite.utilities.data_containers.d_20170423_1211.*
+    import ee_solns_demos.utilities.data_containers.d_20170423_1211.*
         
     pts = zeros( size(edgePtsW.data , 1) * size(edgePtsL.data , 1) , 3);
             
@@ -185,7 +185,7 @@ obj.core()
 end % function
 
 function run_with_plots(obj,varargin)
-import os_numerical_composite.utilities.data_containers.d_20170423_1211.*
+import ee_solns_demos.utilities.data_containers.d_20170423_1211.*
 
 FontSize = 16;
 
